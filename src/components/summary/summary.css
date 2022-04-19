@@ -1,0 +1,42 @@
+.summary__container {
+    float: left;
+    width: 100%;
+}
+
+
+.balances {
+    padding: 1.25rem;
+    border-radius: 10px;
+    margin: 1rem 0rem;
+    text-align: center;
+}
+
+.balances > h5 {
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.balances > p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.balance-positive {
+    background-color: #d4edda;
+    color: green;
+}
+
+.balance-negative {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.balance-total {
+    background-color: aliceblue;
+}
+
+.balance-spent {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
